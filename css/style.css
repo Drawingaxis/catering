@@ -56,4 +56,8 @@ details.faq summary::-webkit-details-marker{display:none}details.faq i{transitio
 .menu-btn{display:none;background:none;border:2px solid #2B1D12;border-radius:999px;padding:10px 16px;cursor:pointer;min-height:44px;align-items:center}
 .foot a:hover{color:#A8C700}
 @media(max-width:860px){.nav{padding:18px 24px}.sec,.hd{padding:56px 24px}.foot{padding:40px 24px;gap:32px}h1{font-size:38px}h2{font-size:30px}.hdin{padding:0 24px}.hero div[style*="max-width:1280px"]{padding:40px 24px!important}.menu-btn{display:inline-flex}.links{display:none;width:100%;flex-direction:column;align-items:flex-start;gap:18px}.links.open{display:flex}.logo{font-size:21px}.logo img{height:38px}}
+@media(max-width:860px){main .hero{min-height:780px}
+main .hero>div:first-child{background:linear-gradient(180deg,rgba(250,246,232,.25) 0,rgba(250,246,232,0) 40%)!important}
+main .hero>div:last-child[style]{padding:24px 16px!important}
+main .hero>div:last-child>div{max-width:600px;background:rgba(250,246,232,.93);border-radius:24px;padding:22px 20px;box-shadow:0 10px 30px rgba(43,29,18,.18)}}
 @media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
