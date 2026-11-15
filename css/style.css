@@ -61,3 +61,6 @@ main .hero>div:first-child{background:linear-gradient(180deg,rgba(250,246,232,.2
 main .hero>div:last-child[style]{padding:24px 16px!important}
 main .hero>div:last-child>div{max-width:600px;background:rgba(250,246,232,.93);border-radius:24px;padding:22px 20px;box-shadow:0 10px 30px rgba(43,29,18,.18)}}
 @media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+
+.menu-grid{justify-content:center}
+@media(max-width:860px){.menu-grid>[data-cat]{max-width:none!important}}
