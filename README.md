@@ -1,5 +1,9 @@
-# Ethiopian Catering: site prototype
+# Wossenyelesh Catering: website prototype
 
-Static HTML, CSS and JavaScript. Open `index.html`, or publish the folder with GitHub Pages (Settings > Pages > Deploy from a branch > main / root).
+Static HTML, CSS and JavaScript, with no build step.
 
-Placeholders in [brackets] are to be replaced with client content. The forms validate but do not send.
+**Run locally:** open `index.html` in a browser.
+
+**Deploy with GitHub Pages:** push this folder to a repo, then Settings > Pages > Deploy from a branch > `main` / root.
+
+Notes: the quote form validates but does not send messages yet. Phone, email, prices and some copy are sample content to be replaced by the client.

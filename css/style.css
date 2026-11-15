@@ -37,6 +37,11 @@ ul{margin:0;padding-left:20px;line-height:1.9;font-size:15px;color:#4A3A2C}
 .faq i{width:32px;height:32px;border-radius:50%;background:#A8C700;display:flex;align-items:center;justify-content:center;font-style:normal}
 .num{flex:none;width:52px;height:52px;border-radius:50%;background:#A8C700;display:flex;align-items:center;justify-content:center;font-family:'DM Serif Display',Georgia,serif;font-weight:800;font-size:22px}.cup{width:72%;aspect-ratio:1;border-radius:50%;background:radial-gradient(circle,#3A2312 0 34%,#F6EBD0 35% 50%,#E2BE7C 51% 58%,#C99A52 59% 62%,transparent 63%)}h1,h2,h3,.logo,.num,.foot b{font-weight:400}
 .hdin{width:100%;max-width:1280px;margin:0 auto;padding:0 56px;box-sizing:border-box}
+.logo{gap:14px;font-size:24px;font-weight:400}
+.logo img{height:46px;width:auto;display:block}
+.logo span{display:flex;flex-direction:column;line-height:1.05}
+.logo small{font-family:'DM Sans',Arial,sans-serif;font-size:10.5px;letter-spacing:.34em;color:#4F7A0A;font-weight:700;margin-top:4px;padding-left:2px}
+.flogo{width:230px;max-width:100%;height:auto;display:block}
 [hidden]{display:none!important}
 html{scroll-behavior:smooth}
 a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible,summary:focus-visible{outline:3px solid #2B1D12;outline-offset:3px}
@@ -46,9 +51,9 @@ button.pill.act{background:#A8C700;font-weight:700}
 .btn:hover{background:#97b300}.btn.dk:hover{background:#4a3523}.btn2:hover{background:#2B1D12;color:#FAF6E8}
 .card{transition:transform .15s}.card:hover{transform:translateY(-3px)}
 details.faq{display:block}details.faq summary{display:flex;justify-content:space-between;align-items:center;cursor:pointer;list-style:none}
-details.faq summary::-webkit-details-marker{display:none}details.faq i{transition:transform .15s}details.faq[open] i{transform:rotate(45deg)}details.faq p{margin-top:14px}
+details.faq summary::-webkit-details-marker{display:none}details.faq i{transition:transform .15s}details.faq[open] i{transform:rotate(45deg)}details.faq p{margin-top:14px;font-weight:400}
 .ok{background:#E9F0B8;border-radius:20px;padding:24px;font-weight:700}
 .menu-btn{display:none;background:none;border:2px solid #2B1D12;border-radius:999px;padding:10px 16px;cursor:pointer;min-height:44px;align-items:center}
 .foot a:hover{color:#A8C700}
-@media(max-width:860px){.nav{padding:18px 24px}.sec,.hd{padding:56px 24px}.foot{padding:40px 24px;gap:32px}h1{font-size:38px}h2{font-size:30px}.hdin{padding:0 24px}.hero div[style*="max-width:1280px"]{padding:40px 24px!important}.menu-btn{display:inline-flex}.links{display:none;width:100%;flex-direction:column;align-items:flex-start;gap:18px}.links.open{display:flex}}
+@media(max-width:860px){.nav{padding:18px 24px}.sec,.hd{padding:56px 24px}.foot{padding:40px 24px;gap:32px}h1{font-size:38px}h2{font-size:30px}.hdin{padding:0 24px}.hero div[style*="max-width:1280px"]{padding:40px 24px!important}.menu-btn{display:inline-flex}.links{display:none;width:100%;flex-direction:column;align-items:flex-start;gap:18px}.links.open{display:flex}.logo{font-size:21px}.logo img{height:38px}}
 @media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
